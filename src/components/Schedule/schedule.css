@@ -1,0 +1,10 @@
+.filters button {
+  background: transparent;
+  border: 1px solid var(--primary);
+  color: #fff; 
+  padding: 6px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 600;
+}
