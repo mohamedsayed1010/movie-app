@@ -1,0 +1,41 @@
+.model{
+    position: absolute;
+    content: '';
+    top: 125px;
+    left: 100px;
+    right: 100px;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.5);
+    z-index: 1100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.model iframe{
+    max-width: 1280px;
+    max-height: 720px;
+}
+
+.model .modalClose{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.model.done{
+    opacity: 1;
+    visibility: visible;
+}
